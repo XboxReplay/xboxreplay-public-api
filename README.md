@@ -7,7 +7,7 @@ Take the advantage of the XboxReplay API for you own use, and for **free**!
 * [Search](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/search.md)
 * [Errors](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/errors.md)
 
-##### Sample call
+### Sample call
 ```shell
 curl 'https://api.xboxreplay.net/players/major%20nelson' \
     -H 'Authorization: XR-User-Token u={preamble};{token}'
@@ -19,3 +19,5 @@ curl 'https://api.xboxreplay.net/players/major%20nelson' \
 
 ### Token request
 Feel free to contact us on Twitter [@XboxReplayNet](https://twitter.com/XboxReplayNet) or by email at [api@xboxreplay.net](mailto:api@xboxreplay.net).
+
+##### Thanks for using XboxReplay!
