@@ -1,16 +1,19 @@
-# XboxReplay - Players information
+# XboxReplay - Players
 
 ### Methods
 * GET - /players/{gamertag}
 
-### Sample usage
-```
+### Player informations
+Returns informations for a targeted player.
+
+##### Sample call
+```shell
 curl 'https://api.xboxreplay.net/players/major%20nelson' \
     -H 'Authorization: [type] [value]'
 ```
 
-### Sample response
-```
+##### Sample response
+```json
 {
    "gamertag": "Major Nelson",
    "gamerpic": "https://images-eds-ssl.xboxlive.com/image?url=wHwbXKif8cus8csoZ03RWwcxuUQ9WVT6xh5XaeeZD02wEfGZeuD.XMoGFVYkwHDqVbTLNl4uG5GNlAu6C3Nxw2PMhnEdJ.tx.hq4uEXu6o1HG6BQpsWdC0fG4OXmAbbCBSXId4EtCKrSkjvcxYDKw16NCNi.s5KQax77.1h7OCM-&format=png",
@@ -22,7 +25,7 @@ curl 'https://api.xboxreplay.net/players/major%20nelson' \
 }
 ```
 
-### Sample error
+##### Sample error
 ```json
 {
    "statusCode": 404,

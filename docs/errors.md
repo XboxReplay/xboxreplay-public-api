@@ -2,7 +2,7 @@
 
 Invalid calls will result to defined response scheme with a non-2XX HTTP response status code.
 
-### Scheme
+##### Scheme
 ```
 {
    "statusCode": number;
@@ -11,7 +11,7 @@ Invalid calls will result to defined response scheme with a non-2XX HTTP respons
 }
 ```
 
-### Sample errors
+##### Sample errors
 ```json
 {
    "statusCode": 401,
