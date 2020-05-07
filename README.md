@@ -1,5 +1,5 @@
 # XboxReplay - Public API
-Take the advantage of the XboxReplay API for you own use, and for **free**!
+Take the advantage of the XboxReplay API for you own use and for **free**!
 
 ### Documentation
 * [Players](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/players.md)
