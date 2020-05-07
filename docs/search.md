@@ -46,8 +46,8 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
                 "views": 8
             },
             "download_urls": {
-                "source": "https://api.dev-xboxreplay.net/ugc-files/xuid-2533274802223855/ffbe1a9d-6c83-4fa4-9e88-db1d74c98651/screenshot.png",
-                "hdr": "https://api.dev-xboxreplay.net/ugc-files/xuid-2533274802223855/ffbe1a9d-6c83-4fa4-9e88-db1d74c98651/screenshot.jxr"
+                "source": "https://api.xboxreplay.net/ugc-files/xuid-2533274802223855/ffbe1a9d-6c83-4fa4-9e88-db1d74c98651/screenshot.png",
+                "hdr": "https://api.xboxreplay.net/ugc-files/xuid-2533274802223855/ffbe1a9d-6c83-4fa4-9e88-db1d74c98651/screenshot.jxr"
             },
             "uploaded_at": "2019-09-07T00:10:39.000Z"
         }
@@ -77,7 +77,7 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
                 "views": 3082
             },
             "download_urls": {
-                "source": "https://api.dev-xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
+                "source": "https://api.xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
             },
             "uploaded_at": "2019-11-30T03:37:18.000Z"
         }

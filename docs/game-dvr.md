@@ -92,7 +92,7 @@ curl 'https://api.xboxreplay.net/players/major%20nelson/screenshots' \
                 "views": 3082
             },
             "download_urls": {
-                "source": "https://api.dev-xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
+                "source": "https://api.xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
             },
             "uploaded_at": "2019-11-30T03:37:18.000Z"
         }
@@ -138,7 +138,7 @@ curl 'https://api.xboxreplay.net/players/major%20nelson/screenshots/1f8225be-38a
             "views": 3082
         },
         "download_urls": {
-            "source": "https://api.dev-xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
+            "source": "https://api.xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
         },
         "uploaded_at": "2019-11-30T03:37:18.000Z"
     },
@@ -183,7 +183,7 @@ curl 'https://api.xboxreplay.net/players/major%20nelson/screenshots/latest' \
             "views": 3082
         },
         "download_urls": {
-            "source": "https://api.dev-xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
+            "source": "https://api.xboxreplay.net/ugc-files/xuid-2584878536129841/1f8225be-38a7-47e9-9952-7aecbf18285c/screenshot.png",
         },
         "uploaded_at": "2019-11-30T03:37:18.000Z"
     },
