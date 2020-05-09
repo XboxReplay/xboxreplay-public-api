@@ -6,7 +6,7 @@
 * GET - /players/{gamertag}/{target}/latest
 
 ### Notice
-Please note that an asynchronous process is started each 15 minutes to retrieve all files for the targeted player. If player's files aren't available on our database the returned `data` node will be equal to `null`. Please refer to the `pull` node to follow the pulling progress. Of course, this step isn't longer required once files are available.
+Please note that an asynchronous process is started each 15 minutes to retrieve **all files** for the targeted player. If player's files aren't available on our database the returned `data` node will be equal to `null`. Please refer to the `pull` node to follow the pulling progress. Of course, this step isn't longer required once files are available. If you don't want to handle each case feel free to use the [search](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/search.md) endpoint instead.
 
 ### Game DVR items
 Returns all Game DVR items for a targeted player.
