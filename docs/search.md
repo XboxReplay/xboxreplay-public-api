@@ -9,7 +9,7 @@ Returns latest Game DVR items for a targeted player.
 ##### Query parameters
 * target: {string} Required - Game DVR items type [screenshots | clips]
 * gamertag: {string} Required - Targeted player's gamertag
-* game_id: {integer} Optional - Targeted Game ID
+* game_id: {string|integer} Optional - Targeted Game ID (May contains multiple IDs separated by commas)
 * limit: {integer} Optional - Max items to be returned (default: 25 | max: 100)
 
 ##### Sample calls
