@@ -2,6 +2,7 @@
 
 ### Methods
 * GET - /search/game-dvr
+* GET - /search/games
 
 ### Game DVR Search
 Returns latest Game DVR items for a targeted player.
@@ -82,5 +83,40 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
             "uploaded_at": "2019-11-30T03:37:18.000Z"
         }
     ]
+}
+```
+
+### Games search
+
+##### Query parameters
+* id: {number} Required - Targeted game ID
+
+##### Sample call
+```shell
+curl 'https://api.xboxreplay.net/search/games?id=770775860' \
+    -H 'Authorization: [type] [value]'
+```
+
+##### Sample response
+```json
+{
+    "id": 770775860,
+    "name": "RESIDENT EVIL 3",
+    "description": "Jill Valentine is one of the last remaining people in Raccoon City to witness the atrocities Umbrella performed. To stop her, Umbrella unleashes their ultimate secret weapon; Nemesis!",
+    "image_urls": {
+        "boxart": "https://store-images.s-microsoft.com/image/apps.4880.71880157815410720.768ba6e5-793f-45af-8f98-a14bc261e1c1.5634c02b-d53f-43e1-b132-de624b29bac2",
+        "hero": "https://store-images.s-microsoft.com/image/apps.33165.71880157815410720.768ba6e5-793f-45af-8f98-a14bc261e1c1.a913127d-06dc-4f3d-9409-d7416e6bf0f7"
+    },
+    "metadata": {
+        "min_age": 18,
+        "game_pass": false,
+        "publisher": "CAPCOM CO., LTD.",
+        "developer": "CAPCOM CO., LTD.",
+        "release_date": "2019-12-12T00:59:40.7409122Z",
+        "devices": [
+            "XboxOne"
+        ]
+    },
+    "updated_at":"2020-05-10T17:14:00.242Z"
 }
 ```
