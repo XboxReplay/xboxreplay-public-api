@@ -60,7 +60,7 @@ curl 'https://api.xboxreplay.net/games?count=1&search=resident%20evil%203&lang=e
 ```
 
 ### Game ID
-Returns synchronized game on XboxReplay.
+Returns informations about a targeted game based on its ID.
 
 ##### Query parameters
 * lang: {string} Optional - Desired language [en-us | fr-fr] - Default: en-us
