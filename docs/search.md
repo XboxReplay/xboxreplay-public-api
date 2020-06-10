@@ -91,6 +91,7 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
 ##### Query parameters
 * id: {number} Required - Targeted game ID
 * lang: {string} Optional - Desired language (en-us | fr-fr) - Default: en-us
+<br>
 **Warning:** The rating system / value may vary based on the specified language.
 
 ##### Sample call
@@ -118,7 +119,7 @@ curl 'https://api.xboxreplay.net/search/games?id=770775860&lang=en-us' \
         "rating": {
             "system": "ESRB",
             "value": "ESRB:18"
-        }
+        },
         "devices": [
             "XboxOne"
         ]
