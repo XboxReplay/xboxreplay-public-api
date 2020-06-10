@@ -90,7 +90,7 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
 
 ##### Query parameters
 * id: {number} Required - Targeted game ID
-* lang: {string} Optional - Desired language (en-us | fr-fr) - Default: en-us
+* lang: {string} Optional - Desired language [en-us | fr-fr] - Default: en-us
 
 ##### Warning
 Name, description and metadata (such as rating system / value) may vary based on the specified language.
