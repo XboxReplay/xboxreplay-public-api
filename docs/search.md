@@ -93,7 +93,7 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
 * lang: {string} Optional - Desired language (en-us | fr-fr) - Default: en-us
 
 ##### Warning
-The rating system / value may vary based on the specified language.
+Name, description and metadata (such as rating system / value) may vary based on the specified language.
 
 ##### Sample call
 ```shell
