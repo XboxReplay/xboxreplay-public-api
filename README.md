@@ -5,6 +5,7 @@ Take the advantage of the XboxReplay API for you own use and for **free**!
 * [Players](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/players.md)
 * [Game DVR](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/game-dvr.md)
 * [Search](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/search.md)
+* [Games](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/games.md)
 * [Errors](https://github.com/XboxReplay/xboxreplay-public-api/blob/master/docs/errors.md)
 
 ### Sample call
