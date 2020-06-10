@@ -90,10 +90,12 @@ curl 'https://api.xboxreplay.net/search/game-dvr?target=screenshots&gamertag=maj
 
 ##### Query parameters
 * id: {number} Required - Targeted game ID
+* lang: {string} Optional - Desired language (en-us | fr-fr) - Default: en-us
+**Warning:** The rating system / value may vary based on the specified language.
 
 ##### Sample call
 ```shell
-curl 'https://api.xboxreplay.net/search/games?id=770775860' \
+curl 'https://api.xboxreplay.net/search/games?id=770775860&lang=en-us' \
     -H 'Authorization: [type] [value]'
 ```
 
@@ -113,6 +115,10 @@ curl 'https://api.xboxreplay.net/search/games?id=770775860' \
         "publisher": "CAPCOM CO., LTD.",
         "developer": "CAPCOM CO., LTD.",
         "release_date": "2019-12-12T00:59:40.7409122Z",
+        "rating": {
+            "system": "ESRB",
+            "value": "ESRB:18"
+        }
         "devices": [
             "XboxOne"
         ]
