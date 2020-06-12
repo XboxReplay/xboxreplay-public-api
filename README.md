@@ -16,7 +16,7 @@ curl 'https://api.xboxreplay.net/players/major%20nelson' \
 
 ### Rate limiting
 * XR-User-Token: 100 requests per hour
-* XR-Partner-Token: 5k requests per hour
+* XR-Partner-Token: 5k requests per hour (may be adjusted based on your needs)
 
 ### Token request
 Feel free to contact us on Twitter [@XboxReplayNet](https://twitter.com/XboxReplayNet) or by email at [api@xboxreplay.net](mailto:api@xboxreplay.net).
